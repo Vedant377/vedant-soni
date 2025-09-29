@@ -1,7 +1,7 @@
 # include <stdio.h>
 int main() {
     float radius, area;
-     float pie = 3.14159;
+     float const pie = 3.14159;
     printf("Enter the radius of the circle: ");
     scanf("%f", &radius);
     if (radius >= 0) {
