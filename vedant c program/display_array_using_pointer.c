@@ -12,7 +12,7 @@ for(int i=0;i<size;i++){
 }
 int *p=&a[0];
 for(int i=0;i<size;i++){
-    printf("%d",p);
+    printf("%d",*p);
     p++;
     printf("\n");
 }
