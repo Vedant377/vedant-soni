@@ -1,12 +1,12 @@
 # include <stdio.h>
 int main(){
     int boy_count=0,girl_count=0;
-    int total_students=5;
+    int total_students=50;
     char sex_code;
-    printf("Enter sex code for 5 students M-males,F-females (M/F):\n");
+    printf("Enter sex code for 50 students M-males,F-females (M/F):\n");
     for(int i=1;i<=total_students;i++){
         printf("Student %d: ",i);
-        scanf(" %c",&sex_code);
+        scanf("%c",&sex_code);
         if(sex_code=='M'||sex_code=='m'){
             boy_count++;
         }
@@ -26,3 +26,4 @@ int main(){
 }
 
    
+
